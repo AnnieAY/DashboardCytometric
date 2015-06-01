@@ -5693,11 +5693,11 @@ aside {
     font-weight: 300; }
 
 section {
-  padding: 9% 1.5% 0 7%; }
+  padding: 8.5% 1.5% 0 7%; }
   section .dropdown-menu.pull-right {
     right: 43.5%; }
   section .borde-superior {
-    margin-top: 4%;
+    margin-top: 2.5%;
     padding-top: 3%;
     border-top: 1px solid gray; }
 
