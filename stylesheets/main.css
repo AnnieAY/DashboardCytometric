@@ -5692,11 +5692,11 @@ aside {
     font-size: 12px;
     font-weight: 300; }
 
-section {
+#contenido {
   padding: 8.5% 1.5% 0 7%; }
-  section .dropdown-menu.pull-right {
+  #contenido .dropdown-menu.pull-right {
     right: 43.5%; }
-  section .borde-superior {
+  #contenido .borde-superior {
     margin-top: 2.5%;
     padding-top: 3%;
     border-top: 1px solid gray; }
@@ -5733,7 +5733,7 @@ section {
   margin-bottom: 6%; }
 
 .seis-modulos {
-  margin: 7% !important; }
+  margin: 10% 5% 0 !important; }
   .seis-modulos .row {
     margin: 0; }
     .seis-modulos .row .col-md-4 .modulo {
