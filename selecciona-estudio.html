@@ -1,0 +1,132 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Cytometric - Seleccionar Estudio</title>
+		<meta charset="utf-8">
+		<!-- Responsiveness -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>		
+		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+			  <div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="#">
+					<img src="assets/icons/logo-cyt-17.png">
+				  </a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+					  <input type="text" class="form-control" placeholder="DNI o apellido del paciente">
+					</div>
+					<button type="submit" class="btn btn-default">Buscar</button>
+				  </form>
+			      <ul class="nav navbar-nav navbar-right margin-0">
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle padding-30" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-cog fs-20" aria-hidden="true"></span></a>
+			          <ul class="dropdown-menu" role="menu">
+			            <li><a href="#">Action</a></li>
+			            <li class="divider"></li>
+			            <li><a href="#">Separated link</a></li>
+			          </ul>
+			        </li>
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle padding-30" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-envelope fs-20" aria-hidden="true"></span></a>
+			          <ul class="dropdown-menu" role="menu">
+			            <li><a href="#">Action</a></li>
+			            <li class="divider"></li>
+			            <li><a href="#">Separated link</a></li>
+			          </ul>
+			        </li>
+			        <li class="dropdown nav-config">
+			          <a href="#" class="dropdown-toggle padding-6-15" data-toggle="dropdown" role="button" aria-expanded="false"><img src="assets/images/user-70.png"></a>
+			          <ul class="dropdown-menu" role="menu">
+			            <li><a href="#">Action</a></li>
+			            <li class="divider"></li>
+			            <li><a href="#">Separated link</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</header>
+		<aside>
+			<div class="nav-vertical">
+				<ul class="nav nav-pills nav-stacked sidebar">
+	        <li class="icono-nav-uno">
+	        	<div class="icon-upper text-center">
+							<span class="glyphicon glyphicon-home icono-size fs-30 pb-10" aria-hidden="true"></span><br>
+							<span class="subtitulo-icono">INICIO</span>				
+						</div>
+	        </li>
+	        <li class="icono-nav-uno menu-item">
+						<div class="icon-upper text-center">
+							<span class="glyphicon glyphicon-plus-sign icono-size fs-30 pb-10" aria-hidden="true"></span><br>
+							<span class="subtitulo-icono">INST. MÉDICA</span>				
+						</div>
+	        </li>
+	        <li class="icono-nav-uno">
+						<div class="icon-upper text-center">
+							<span class="glyphicon glyphicon-user icono-size fs-30 pb-10" aria-hidden="true"></span><br>
+							<span class="subtitulo-icono">PACIENTE</span>				
+						</div>
+	        </li>
+	        <li class="icono-nav-uno">
+						<div class="icon-upper text-center">
+							<span class="glyphicon glyphicon-duplicate icono-size fs-30 pb-10" aria-hidden="true"></span><br>
+							<span class="subtitulo-icono">ANEXOS</span>				
+						</div>
+	        </li>
+				</ul>
+			</div>			
+		</aside>	
+		<section>
+			<div class="container-section">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="dropdown text-center">
+						  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+						    Tipo de estudio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+						    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Inmunofenotipo</a></li>
+						    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Citogenética</a></li>
+						  </ul>
+						</div>
+					</div>
+				</div>
+				<div class="row borde-superior">
+					<div class="bienvenido">
+						<h1>Bienvenido al sistema de Cytometric Bioservices S.A.C.</h1>
+						<h4 class="m-4">A continuación puede visualizar el manual de usuario:</h4>
+						<div class="text-center">
+							<button type="button" class="btn btn-default btn-lg">
+							  <span class="glyphicon glyphicon-save" aria-hidden="true"></span> Descargar PDF
+							</button>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Javascripts de Bootstrap -->
+		<script src="javascripts/b3/collapse.js"></script>
+		<script src="javascripts/b3/transition.js"></script>
+		<script src="javascripts/b3/dropdown.js"></script>
+	</body>	
+</html>	

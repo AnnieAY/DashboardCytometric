@@ -1,0 +1,58 @@
+// Son los estilos personalizados que se repiten en todas las vistas, por ejemplo, el header o el footer del sitio.
+
+header{
+	.navbar-inverse{
+		background-color: #ecf0f1;
+		border-color:darkgray;
+		.container-fluid{
+			.navbar-header{
+				width: 35%;
+				a{
+					margin: 0;
+					padding-top: 4%;
+				}
+			}
+		}
+	}
+	form{
+		margin: 1.7% !important;
+		.form-group{	
+			input{
+				width: 250px !important;
+				font-size: 12px !important;
+			}
+		}
+	}
+}
+
+
+aside{
+	background-color: #ecf0f1;
+	position: fixed;
+	width: 80px;
+	top: 13.4%;
+	height: 100%;
+	border: none;
+	z-index: 10;
+	.nav-vertical{
+		.icono-nav-uno{
+			padding: 30% 0;
+			border-bottom: 1px solid #bdc3c7;
+			font-family: 'Oswald', sans-serif;
+			font-size: 12px;
+			font-weight: 300;
+		}
+	}
+}
+
+section{
+	padding: 9% 1.5% 0 7%;
+	.dropdown-menu.pull-right {
+		right: 43.5%;
+	}
+	.borde-superior{
+		margin-top: 4%; 
+		padding-top: 3%;
+		border-top: 1px solid gray;
+	}
+}
