@@ -1,0 +1,346 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Cytometric - Anexo Muestra</title>
+		<meta charset="utf-8">
+		<!-- Responsiveness -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>		
+		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+		<link rel="stylesheet" href="stylesheets/datepicker.css">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+			  <div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="#">
+					<img src="assets/icons/logo-cyt-17.png">
+				  </a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+					  <input type="text" class="form-control" placeholder="DNI o apellido del paciente">
+					</div>
+					<button type="submit" class="btn btn-default">Buscar</button>
+				  </form>
+			      <ul class="nav navbar-nav navbar-right margin-0">
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle padding-30" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-cog fs-20" aria-hidden="true"></span></a>
+			          <ul class="dropdown-menu" role="menu">
+			            <li><a href="#">Action</a></li>
+			            <li class="divider"></li>
+			            <li><a href="#">Separated link</a></li>
+			          </ul>
+			        </li>
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle padding-30" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-envelope fs-20" aria-hidden="true"></span></a>
+			          <ul class="dropdown-menu" role="menu">
+			            <li><a href="#">Action</a></li>
+			            <li class="divider"></li>
+			            <li><a href="#">Separated link</a></li>
+			          </ul>
+			        </li>
+			        <li class="dropdown nav-config">
+			          <a href="#" class="dropdown-toggle padding-6-15" data-toggle="dropdown" role="button" aria-expanded="false"><img src="assets/images/user-70.png"></a>
+			          <ul class="dropdown-menu" role="menu">
+			            <li><a href="#">Action</a></li>
+			            <li class="divider"></li>
+			            <li><a href="#">Separated link</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</header>
+		<aside>
+			<div class="nav-vertical">
+				<ul class="nav nav-pills nav-stacked sidebar">
+	        <li class="icono-nav-uno">
+	        	<div class="icon-upper text-center">
+							<span class="glyphicon glyphicon-home icono-size fs-30 pb-10" aria-hidden="true"></span><br>
+							<span class="subtitulo-icono">INICIO</span>				
+						</div>
+	        </li>
+	        <li class="icono-nav-uno menu-item">
+						<div class="icon-upper text-center">
+							<span class="glyphicon glyphicon-plus-sign icono-size fs-30 pb-10" aria-hidden="true"></span><br>
+							<span class="subtitulo-icono">INST. MÉDICA</span>				
+						</div>
+	        </li>
+	        <li class="icono-nav-uno">
+						<div class="icon-upper text-center">
+							<span class="glyphicon glyphicon-user icono-size fs-30 pb-10" aria-hidden="true"></span><br>
+							<span class="subtitulo-icono">PACIENTE</span>				
+						</div>
+	        </li>
+	        <li class="icono-nav-uno">
+						<div class="icon-upper text-center">
+							<span class="glyphicon glyphicon-duplicate icono-size fs-30 pb-10" aria-hidden="true"></span><br>
+							<span class="subtitulo-icono">ANEXOS</span>				
+						</div>
+	        </li>
+				</ul>
+			</div>			
+		</aside>	
+		<section id="contenido">
+			<div class="container-section">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1 class="margin-0">Estudio de Inmunofenotipo</h1>
+					</div>
+				</div>
+				<div class="row borde-superior">
+					<div class="bienvenido">
+						<h4 class="pl-5 pt-2">Paciente:</h4>
+						<div class="row pl-5 pt-2">
+							<div class="col-md-5">
+								<h5 class="pt-2 pl-10 mb-1">Selecciona si el paciente ha sido atendido anteriormente</h5>		
+							</div>
+							<div class="col-md-5">
+								<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+								    Paciente&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">RECURRENTE</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">NUEVO</a></li>
+								  </ul>
+								</div>									
+							</div>
+						</div>	
+						<div class="divider"></div>
+						<h5 class="pt-5 pl-10 mb-1">Ingrese los datos personales del paciente a atenderse por primera vez:</h5>									
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Seleccione tipo de documento</h5>		
+							</div>
+							<div class="col-md-4">
+								<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+								    Documento de Identificación&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">DNI</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Carné de Extranjería</a></li>
+								  </ul>
+								</div>									
+							</div>																				
+						</div>
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Número de documento</h5>		
+							</div>
+							<div class="col-md-3">
+								<input type="text" class="form-control">							
+							</div>																				
+						</div>	
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Apellido Paterno</h5>		
+							</div>
+							<div class="col-md-3">
+								<input type="text" class="form-control">							
+							</div>																				
+						</div>
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Apellido Materno</h5>		
+							</div>
+							<div class="col-md-3">
+								<input type="text" class="form-control">							
+							</div>																				
+						</div>
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Nombres</h5>		
+							</div>
+							<div class="col-md-3">
+								<input type="text" class="form-control">							
+							</div>																				
+						</div>												
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Fecha de Nacimiento</h5>		
+							</div>
+							<div class="col-md-3">
+								<div class="hero-unit pt-2">
+		              <input type="text" placeholder="Click para seleccionar fecha" id="example1" style="width:100%;">
+		            </div>						
+							</div>																				
+						</div>	
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">País de residencia</h5>		
+							</div>
+							<div class="col-md-4">
+								<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+								    PAÍS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Pais1</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Pais2</a></li>
+								  </ul>
+								</div>									
+							</div>																				
+						</div>
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Provincia</h5>		
+							</div>
+							<div class="col-md-4">
+								<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+								    PROVINCIA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Provincia1</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Provincia2</a></li>
+								  </ul>
+								</div>									
+							</div>																				
+						</div>		
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Distrito</h5>		
+							</div>
+							<div class="col-md-4">
+								<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+								    DISTRITO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Distrito1</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Distrito2</a></li>
+								  </ul>
+								</div>									
+							</div>																				
+						</div>
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Dirección</h5>		
+							</div>
+							<div class="col-md-3">
+								<input type="text" class="form-control">							
+							</div>																				
+						</div>
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Estado Civil</h5>		
+							</div>
+							<div class="col-md-4">
+								<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+								    ESTADO CIVIL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Soltero</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Casado</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Viudo</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Divorciado</a></li>
+								  </ul>
+								</div>									
+							</div>																				
+						</div>												
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Sexo</h5>		
+							</div>
+							<div class="col-md-4">
+								<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+								    SEXO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Masculino</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Femenino</a></li>
+								  </ul>
+								</div>									
+							</div>																				
+						</div>
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Grupo Sanguíneo</h5>		
+							</div>
+							<div class="col-md-4">
+								<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+								    GRUPO SANGUÍNEO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">O+</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">O-</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">A+</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">A-</a></li>
+								  </ul>
+								</div>									
+							</div>																				
+						</div>
+						<div class="row pl-5 pt-2">
+							<div class="col-md-2"></div>
+							<div class="col-md-3">
+								<h5 class="pt-2 pl-10 mb-1">Antecedentes Médicos</h5>		
+							</div>
+							<div class="col-md-4">
+								<textarea rows="4" cols="48" name="comment" class="resize:none;"></textarea>
+							</div>														
+						</div>																												
+						<div class="text-right pr-10 pt-2">
+							<button type="button" class="btn btn-default btn-lg">REGISTRAR&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Javascripts de Bootstrap -->
+		<script src="javascripts/b3/collapse.js"></script>
+		<script src="javascripts/b3/transition.js"></script>
+		<script src="javascripts/b3/dropdown.js"></script>
+		<script src="javascripts/bootstrap-datepicker.js"></script>
+    <script type="text/javascript">
+        // When the document is ready
+        $(document).ready(function () {
+            
+            $('#example1').datepicker({
+                format: "dd/mm/yyyy"
+            });  
+        
+        });
+    </script>
+	</body>	
+</html>	

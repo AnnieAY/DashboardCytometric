@@ -5763,6 +5763,12 @@ aside {
 .margin-bottom-6 {
   margin-bottom: 6%; }
 
+.divider {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+  margin-top: 3%; }
+
 .seis-modulos {
   margin: 10% 5% 0 !important; }
   .seis-modulos .row {
